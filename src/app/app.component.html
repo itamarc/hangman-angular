@@ -1,9 +1,9 @@
-<mat-toolbar color="primary" class="mat-elevation-z4" style="position: sticky; top: 0; z-index: 1000;">
+<mat-toolbar color="primary" class="mat-elevation-z8" style="position: sticky; top: 0; z-index: 1000;">
   <h1>Hangman Game</h1>
 </mat-toolbar>
 <mat-grid-list cols="3" rows="5" rowHeight="6em" gutterSize="0.5em" style="margin-top: 1em;">
-  <mat-grid-tile rowspan="5" style="background-color: lightgreen;">img</mat-grid-tile>
-  <mat-grid-tile rowspan="1" colspan="2" style="background-color: yellow;"><hm-controls></hm-controls></mat-grid-tile>
-  <mat-grid-tile rowspan="2" colspan="2" style="background-color: lightblue;"><hm-word></hm-word></mat-grid-tile>
-  <mat-grid-tile rowspan="2" colspan="2" style="background-color: lightcoral;"><hm-letters></hm-letters></mat-grid-tile>
+  <mat-grid-tile rowspan="5"><hm-hangman-img></hm-hangman-img></mat-grid-tile>
+  <mat-grid-tile rowspan="1" colspan="2"><hm-controls></hm-controls></mat-grid-tile>
+  <mat-grid-tile rowspan="2" colspan="2"><hm-word></hm-word></mat-grid-tile>
+  <mat-grid-tile rowspan="2" colspan="2"><hm-letters></hm-letters></mat-grid-tile>
 </mat-grid-list>
